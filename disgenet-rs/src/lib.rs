@@ -48,6 +48,10 @@ mod tests {
     #[test]
     fn test_client_creation() {
         let client = DisgenetClient::new();
-        assert!(true, "Client created successfully");
+        assert_eq!(
+            std::mem::size_of_val(&client),
+            0,
+            "Client is ZST as expected"
+        );
     }
 }

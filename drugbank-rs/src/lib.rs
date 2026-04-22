@@ -47,6 +47,10 @@ mod tests {
     #[test]
     fn test_parser_creation() {
         let parser = DrugBankParser::new();
-        assert!(true, "Parser created successfully");
+        assert_eq!(
+            std::mem::size_of_val(&parser),
+            0,
+            "Parser is ZST as expected"
+        );
     }
 }
