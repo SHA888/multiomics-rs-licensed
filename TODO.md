@@ -26,22 +26,22 @@ at v0.1 scope.
 
 ---
 
-## SPRINT 0 — Workspace bootstrap  *(deferred)*
+## SPRINT 0 — Workspace bootstrap
 > Gate: first consumer request for any crate in this workspace.
 
-- [ ] S0.1 Create `github.com/SHA888/multiomics-rs-licensed` (public)
-- [ ] S0.2 `LICENSE-MIT` + `LICENSE-APACHE` (parser code)
-- [ ] S0.3 `LICENSE-POLICY.md` (data license discipline — see workspace root)
-- [ ] S0.4 `CONTRIBUTING.md` with license-discipline rules
-- [ ] S0.5 `CODE_OF_CONDUCT.md` — Contributor Covenant v2.1
-- [ ] S0.6 `SECURITY.md` — data correctness bugs = security severity
-- [ ] S0.7 Workspace `Cargo.toml`, same template as `multiomics-rs`
-- [ ] S0.8 `rust-toolchain.toml` pinning latest stable
-- [ ] S0.9 `deny.toml` — same policy as `multiomics-rs`
-- [ ] S0.10 CI workflow (ci.yml, release.yml, audit.yml)
-- [ ] S0.11 Empty crate scaffolds (drugbank-rs, phosphositeplus-rs, oncokb-rs,
+- [x] S0.1 Create `github.com/SHA888/multiomics-rs-licensed` (public)
+- [x] S0.2 `LICENSE-MIT` + `LICENSE-APACHE` (parser code)
+- [x] S0.3 `LICENSE-POLICY.md` (data license discipline — see workspace root)
+- [x] S0.4 `CONTRIBUTING.md` with license-discipline rules
+- [x] S0.5 `CODE_OF_CONDUCT.md` — Contributor Covenant v2.1
+- [x] S0.6 `SECURITY.md` — data correctness bugs = security severity
+- [x] S0.7 Workspace `Cargo.toml`, same template as `multiomics-rs`
+- [x] S0.8 `rust-toolchain.toml` pinning latest stable
+- [x] S0.9 `deny.toml` — same policy as `multiomics-rs`
+- [x] S0.10 CI workflow (ci.yml, release.yml, audit.yml)
+- [x] S0.11 Empty crate scaffolds (drugbank-rs, phosphositeplus-rs, oncokb-rs,
            disgenet-rs) with stub `src/lib.rs`, `README.md`, `CHANGELOG.md`
-- [ ] S0.12 `cargo check --workspace` passes on empty scaffold
+- [x] S0.12 `cargo check --workspace` passes on empty scaffold
 - [ ] S0.13 CI green on `main`
 
 ---

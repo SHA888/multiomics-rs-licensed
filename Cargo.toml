@@ -1,0 +1,30 @@
+[workspace]
+members = [
+    "drugbank-rs",
+    "phosphositeplus-rs",
+    "oncokb-rs",
+    "disgenet-rs",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Kresna Sucandra <kresnasucandra@gmail.com>"]
+edition = "2021"
+rust-version = "1.78"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SHA888/multiomics-rs-licensed"
+homepage = "https://github.com/SHA888/multiomics-rs-licensed"
+keywords = ["bioinformatics", "multiomics", "drugbank", "phosphositeplus", "oncokb", "disgenet"]
+categories = ["science", "parser-implementations"]
+
+[workspace.dependencies]
+# Core dependencies will be added per-crate as needed
+# arrow = "53"
+# quick-xml = "0.36"
+# serde = { version = "1.0", features = ["derive"] }
+# thiserror = "1.0"
+
+[profile.release]
+opt-level = 3
+lto = "thin"

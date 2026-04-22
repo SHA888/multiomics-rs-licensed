@@ -1,0 +1,19 @@
+[package]
+name = "oncokb-rs"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "Reader for OncoKB API output and licensed flat-file exports (parser code only — requires separate license)"
+
+[dependencies]
+
+[dev-dependencies]
+
+[features]
+default = []

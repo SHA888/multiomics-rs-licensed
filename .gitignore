@@ -1,0 +1,47 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# IDE/editor files
+.windsurf/
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+*.iml
+
+# Data files - NEVER commit real licensed data
+*.xml
+*.tsv
+*.csv
+*.json
+*.gz
+*.zip
+*.tar
+*.tar.gz
+data/
+fixtures/real/
+downloads/
+
+# Secrets and environment
+.env
+.env.*
+*.pem
+*.key
+secrets/
+config/local*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+*.profraw
+grcov/
+lcov.info
+coverage/
+
+# Documentation build
+doc/
+book/

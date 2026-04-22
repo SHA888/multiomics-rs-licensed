@@ -1,0 +1,19 @@
+[package]
+name = "phosphositeplus-rs"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "TSV parsers for PhosphoSitePlus post-translational modification tables (parser code only — requires separate data registration)"
+
+[dependencies]
+
+[dev-dependencies]
+
+[features]
+default = []

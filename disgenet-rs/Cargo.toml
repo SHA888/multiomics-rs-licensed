@@ -1,0 +1,21 @@
+[package]
+name = "disgenet-rs"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "Reader for DISGENET data — API client and TSV parser (parser code only — requires separate license)"
+
+[dependencies]
+
+[dev-dependencies]
+
+[features]
+default = []
+api = []
+bulk = []

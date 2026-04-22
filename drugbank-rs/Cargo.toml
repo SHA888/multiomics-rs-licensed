@@ -1,0 +1,19 @@
+[package]
+name = "drugbank-rs"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "XML parser for DrugBank full-database export (parser code only — requires separate data license)"
+
+[dependencies]
+
+[dev-dependencies]
+
+[features]
+default = []
